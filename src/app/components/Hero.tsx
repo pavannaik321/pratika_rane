@@ -27,28 +27,35 @@ export default function Hero() {
         </div>
 
         {/* Right: Text section stays normal */}
-        <div className="bg-white flex items-center justify-center px-4">
-          <div className="space-y-4 max-w-2xl">
-            <h2 className="font-semibold text-black text-3xl">
-              Pratika <span className="text-cyan-500 font-semibold">Rane</span>
-            </h2>
-            <h3 className="text-[22px] font-semibold text-black py-2">
-              Quality Assurance (QA)
-            </h3>
-            <p className="text-[15px] leading-7 text-black py-2">
-              Quality Assurance (QA) is a systematic process focused on preventing defects and ensuring that products,
-              services, or processes meet specified requirements and standards. It’s a proactive approach that aims
-              to build quality into a product or service from the beginning, rather than just finding and fixing problems
-              at the end.
-            </p>
-            <a
-              href="#"
-              className="inline-block bg-cyan-500 text-white px-6 py-2 rounded-md hover:bg-cyan-700 transition"
-            >
-              View Work →
-            </a>
-          </div>
-        </div>
+<div className="bg-white flex items-center justify-center px-4 py-10">
+  <div className="space-y-6 max-w-2xl text-center lg:text-left">
+    
+    {/* Name */}
+    <p className="text-black text-3xl font-semibold">
+      Pratika <span className="text-cyan-500 text-3xl font-semibold">Rane</span>
+    </p>
+    
+    {/* Title */}
+    <p className="text-xl font-semibold text-black py-1">
+      Quality Assurance (QA)
+    </p>
+    
+    {/* Paragraph */}
+    <p className="text-[17px] leading-[1.9rem] text-black py-2">
+      Quality Assurance (QA) is a structured and proactive process aimed at preventing defects while ensuring that all deliverables meet defined standards. It emphasizes early planning and continuous improvement, helping teams to build reliable and high-performing products from the ground up. Instead of waiting for issues to appear, QA promotes building quality at every stage, leading to greater consistency, customer satisfaction, and long-term success.
+    </p>
+
+    {/* Button */}
+    <a
+      href="#"
+      className="inline-block bg-cyan-500 text-white px-6 py-2.5 rounded-md hover:bg-cyan-700 transition duration-300"
+    >
+      View Work →
+    </a>
+  </div>
+</div>
+
+
       </div>
     </section>
   )

@@ -33,20 +33,20 @@ export default function Contact() {
 
             {/* Content */}
             <div>
-              <h2 className="text-2xl font-semibold mb-2 py-0">Contact Information</h2>
-              <p className="mb-8 text-xs py-3 mt-1">Say something to start a live chat!</p>
-              <div className="space-y-6">
-                <div className="flex items-center space-x-3 py-7">
+              <h3 className="text-3xl font-semibold mb-2 py-0">Contact Information</h3>
+              <p className="mt-3 text-sm px-1">Say something to start a live chat!</p>
+              <div className="space-y-4 py-10 mt-10">
+                <div className="flex items-center text-sm space-x-3">
                   <FaPhoneAlt />
                   <span>+102 3456 789</span>
                 </div>
-                <div className="flex items-center space-x-3 py-2">
+                <div className="flex items-center text-sm space-x-3">
                   <FaEnvelope />
                   <span>demo@gmail.com</span>
                 </div>
-                <div className="flex items-center space-x-3 py-3">
+                <div className="flex items-center text-sm space-x-3">
                   <FaMapMarkerAlt />
-                  <span>
+                  <span >
                     132 Dartmouth Street Boston,<br />
                     Massachusetts 02156 United States
                   </span>

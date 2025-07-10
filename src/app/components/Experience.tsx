@@ -24,21 +24,24 @@ function JobCard({
       {/* Right cyan accent */}
       <div className="absolute top-0 right-0 h-full w-[6px] bg-cyan-500 rounded-tr-2xl rounded-br-2xl"></div>
 
-      <div className="flex items-start gap-4">
-        {/* Logo */}
-        <Image
-          src={logo}
-          alt={company}
-          width={48}
-          height={48}
-          className="rounded-full object-contain"
-        />
+      {/* Responsive flex direction */}
+      <div className="flex flex-col lg:flex-row items-start gap-4">
+        {/* Rounded image */}
+        <div className="w-16 h-16 rounded-full overflow-hidden flex-shrink-0">
+          <Image
+            src={logo}
+            alt={company}
+            width={64}
+            height={64}
+            className="w-full h-full object-cover scale-110"
+          />
+        </div>
 
-        {/* Text */}
-        <div>
-          <h4 className="text-sm text-gray-700">{company}</h4>
-          <p className="text-[15px] font-semibold text-black mt-1">{role}</p>
-          <ul className="text-sm text-gray-600 mt-2 list-disc list-inside space-y-1">
+        {/* Text content */}
+        <div className="text-left">
+          <h4 className="text-[15px] font-bold text-black">{company}</h4>
+          <p className="text-sm text-gray-800 font-semibold pt-2 lg:pt-4">{role}</p>
+          <ul className="list-disc list-inside text-sm text-black mt-2 space-y-1 px-1">
             <li>{duration}</li>
             <li>{location}</li>
             <li>{type}</li>
@@ -76,7 +79,6 @@ function SkillsCard() {
 
   return (
     <div className="relative bg-white border border-gray-200 rounded-2xl p-6 shadow-sm overflow-hidden flex flex-col h-full">
-      {/* Cyan right accent */}
       <div className="absolute top-0 right-0 h-full w-[6px] bg-cyan-500 rounded-tr-2xl rounded-br-2xl"></div>
 
       <h3 className="text-center font-semibold text-lg mb-6 text-gray-900">
@@ -116,14 +118,14 @@ export default function Experience() {
           </span>
         </h2>
         <p className="text-white mt-2 text-sm sm:text-base p-2">
-          A dedicated professional with a passion for precision in pharma<br></br> 
+          A dedicated professional with a passion for precision in pharma<br className="hidden sm:block" />
           compliance.
         </p>
       </div>
 
-      {/* Equal-height grid */}
-      <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
-        {/* Left - Experience Cards */}
+      {/* Responsive grid */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-10 grid grid-cols-1 lg:grid-cols-2 gap-6 items-stretch">
+        {/* Left – Experience Cards */}
         <div className="flex flex-col gap-6">
           <JobCard
             logo="/images/lbox1.png"
@@ -143,7 +145,7 @@ export default function Experience() {
           />
         </div>
 
-        {/* Right - Skills */}
+        {/* Right – Skills */}
         <SkillsCard />
       </div>
     </section>
