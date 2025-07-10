@@ -7,11 +7,11 @@ export default function Education() {
     <section id="education" className="bg-[#f8f9fa]">
       {/* Header */}
       <div className="bg-cyan-500 py-10 text-center px-4">
-        <h2 className="text-white text-2xl font-semibold p-2">
+        <p className="text-white text-xl font-semibold ">
           Pratika Rane{' '}
           <span className="underline underline-offset-4 decoration-white">Education</span>
-        </h2>
-        <p className="text-white mt-2 text-sm">
+        </p>
+        <p className="text-white mt-2 text-sm sm:text-base">
           A dedicated professional with a passion for precision in pharma<br />
           compliance.
         </p>
@@ -19,10 +19,11 @@ export default function Education() {
 
       {/* Pill Grid */}
       <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-3 gap-8 justify-items-center text-center">
+
         {/* === Academic Background === */}
         <div className="flex flex-col items-center">
           <h3 className="text-[#007EA7] font-semibold text-lg mb-4">Academic Background</h3>
-          <div className="w-[260px] h-[560px] rounded-full shadow-[0_10px_30px_rgba(0,0,0,0.25)] bg-white overflow-hidden flex flex-col">
+          <div className="w-[260px] h-[560px] rounded-full shadow-2xl shadow-black/30 bg-white overflow-hidden flex flex-col">
             {/* Top White */}
             <div className="bg-white px-6 flex-1 flex flex-col justify-center space-y-6 py-4">
               <div>
@@ -70,7 +71,7 @@ export default function Education() {
         {/* === Academic Projects === */}
         <div className="flex flex-col items-center">
           <h3 className="text-[#007EA7] font-semibold text-lg mb-4">Academic Projects</h3>
-          <div className="w-[260px] h-[560px] rounded-full shadow-[0_10px_30px_rgba(0,0,0,0.25)] bg-white overflow-hidden flex flex-col">
+          <div className="w-[260px] h-[560px] rounded-full shadow-2xl shadow-black/30 bg-white overflow-hidden flex flex-col">
             {/* Top Cyan */}
             <div className="bg-cyan-500 px-6 flex-1 flex flex-col justify-center text-white text-xs py-6">
               <div className="flex flex-col items-center mt-1">
@@ -122,7 +123,7 @@ export default function Education() {
           <h3 className="text-[#007EA7] font-semibold text-lg mb-4">
             Workshops & Conferences Attended
           </h3>
-          <div className="w-[260px] h-[560px] rounded-full shadow-[0_10px_30px_rgba(0,0,0,0.25)] bg-white overflow-hidden flex flex-col">
+          <div className="w-[260px] h-[560px] rounded-full shadow-2xl shadow-black/30 bg-white overflow-hidden flex flex-col">
             {/* Top White */}
             <div className="bg-white px-4 flex-1 flex flex-col justify-center space-y-6 py-4 text-xs text-center">
               {/* Conference 1 */}
@@ -194,6 +195,7 @@ export default function Education() {
             </div>
           </div>
         </div>
+
       </div>
     </section>
   )

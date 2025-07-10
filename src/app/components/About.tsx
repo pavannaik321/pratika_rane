@@ -7,10 +7,10 @@ export default function About() {
     <section id="about" className="bg-white">
       {/* Top Heading */}
       <div className="bg-cyan-500 py-10 text-center px-2">
-        <h2 className="text-white text-2xl font-semibold p-1">
+        <p className="text-white text-xl font-semibold p-1">
           <span className="underline underline-offset-4 decoration-white">About</span>{' '}
           <span className="text-white font-semibold no-underline">Pratika Rane</span>
-        </h2>
+        </p>
         <p className="text-white mt-2 text-sm sm:text-base">
           A dedicated professional with a passion for precision in pharma<br />
           compliance.
@@ -34,7 +34,7 @@ export default function About() {
             </div>
             <div className="pr-2">
               <h3 className="font-semibold text-lg py-1">Career Objective</h3>
-              <p className="text-gray-600 text-xs mt-1">
+              <p className="text-black text-sm py-2">
                 To contribute to the pharmaceutical industry through expertise in
                 quality systems and compliance, while supporting continuous improvement
                 and business goals in a globally respected organization.
@@ -55,7 +55,7 @@ export default function About() {
             </div>
             <div className="pr-2">
               <h3 className="font-semibold text-lg py-1">Professional Qualities</h3>
-              <p className="text-black text-xs mt-1">
+              <p className="text-black text-sm py-2">
                 Detail-oriented, analytical, and collaborative professional with strong
                 documentation and audit readiness skills, committed to continuous
                 learning and high performance under pressure.
@@ -76,7 +76,7 @@ export default function About() {
             </div>
             <div className="pr-2">
               <h3 className="font-semibold text-lg py-1">Core Strengths</h3>
-              <p className="text-black text-xs mt-1">
+              <p className="text-black text-sm py-2">
                 Skilled in managing deviations, complaints, and compliance using tools
                 like TrackWise and NovoGlow, with a strong foundation in lab techniques
                 and strategic quality oversight.
