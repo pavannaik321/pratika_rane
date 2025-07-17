@@ -39,7 +39,7 @@ function JobCard({
 
         {/* Text content */}
         <div className="text-left">
-          <h4 className="text-[15px] font-bold text-black">{company}</h4>
+          <h4 className="text-[15px]  text-black">{company}</h4>
           <p className="text-sm text-gray-800 font-semibold pt-2 lg:pt-4">{role}</p>
           <ul className="list-disc list-inside text-sm text-black mt-2 space-y-1 px-1">
             <li>{duration}</li>

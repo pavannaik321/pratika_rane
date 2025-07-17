@@ -23,11 +23,11 @@ export default function Education() {
         {/* === Academic Background === */}
         <div className="flex flex-col items-center">
           <h3 className="text-[#007EA7] font-semibold text-lg mb-4">Academic Background</h3>
-          <div className="w-[260px] h-[560px] rounded-full shadow-2xl shadow-black/30 bg-white overflow-hidden flex flex-col">
+          <div className="w-[260px] h-[560px] rounded-full shadow-2xl shadow-gray-400 bg-white overflow-hidden flex flex-col">
             {/* Top White */}
             <div className="bg-white px-6 flex-1 flex flex-col justify-center space-y-6 py-4">
               <div>
-                <h4 className="text-xs font-semibold text-gray-800 p-2">High School</h4>
+                <p className="text-xs font-semibold text-gray-800 p-2">High School</p>
                 <p className="text-xs text-gray-600 mt-1 leading-tight">
                   Jawahar Navodaya Vidyalaya<br />
                   Canacona, South Goa – 2010<br />
@@ -71,7 +71,7 @@ export default function Education() {
         {/* === Academic Projects === */}
         <div className="flex flex-col items-center">
           <h3 className="text-[#007EA7] font-semibold text-lg mb-4">Academic Projects</h3>
-          <div className="w-[260px] h-[560px] rounded-full shadow-2xl shadow-black/30 bg-white overflow-hidden flex flex-col">
+          <div className="w-[260px] h-[560px] rounded-full shadow-2xl shadow-gray-400 bg-white overflow-hidden flex flex-col">
             {/* Top Cyan */}
             <div className="bg-cyan-500 px-6 flex-1 flex flex-col justify-center text-white text-xs py-6">
               <div className="flex flex-col items-center mt-1">
@@ -123,7 +123,7 @@ export default function Education() {
           <h3 className="text-[#007EA7] font-semibold text-lg mb-4">
             Workshops & Conferences Attended
           </h3>
-          <div className="w-[260px] h-[560px] rounded-full shadow-2xl shadow-black/30 bg-white overflow-hidden flex flex-col">
+          <div className="w-[260px] h-[560px] rounded-full shadow-2xl shadow-gray-400 bg-white overflow-hidden flex flex-col">
             {/* Top White */}
             <div className="bg-white px-4 flex-1 flex flex-col justify-center space-y-6 py-4 text-xs text-center">
               {/* Conference 1 */}
@@ -136,8 +136,8 @@ export default function Education() {
                     className="object-cover scale-110"
                   />
                 </div>
-                <h5 className="font-semibold text-xs">Pharmig Microbiology Conference</h5>
-                <p className="text-xs text-gray-600">Bangalore (2018)</p>
+                <h5 className="font-semibold text-black text-xs">Pharmig Microbiology Conference</h5>
+                <p className="text-xs text-black">Bangalore (2018)</p>
               </div>
 
               <hr className="border-t border-gray-300 mx-auto w-50 p-1" />
@@ -152,8 +152,8 @@ export default function Education() {
                     className="object-cover scale-110"
                   />
                 </div>
-                <h4 className="font-semibold text-xs">ICAR Mushroom Training</h4>
-                <p className="text-xs text-gray-600">Bangalore (2016)</p>
+                <h4 className="font-semibold text-black text-xs">ICAR Mushroom Training</h4>
+                <p className="text-xs text-black">Bangalore (2016)</p>
               </div>
             </div>
 
@@ -169,7 +169,7 @@ export default function Education() {
                     className="object-cover scale-110"
                   />
                 </div>
-                <h4 className="font-semibold text-sm leading-tight">
+                <h4 className="font-semibold text-xs leading-tight">
                   Goa University Scientific Writing Workshop
                 </h4>
                 <p className="mt-1">Goa (2015)</p>
@@ -187,7 +187,7 @@ export default function Education() {
                     className="object-cover scale-110"
                   />
                 </div>
-                <h4 className="font-semibold text-sm leading-tight">
+                <h4 className="font-semibold text-xs leading-tight">
                   National Seminar on Life and Life Processes
                 </h4>
                 <p className="mt-1">Goa (2016)</p>
