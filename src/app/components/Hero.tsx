@@ -72,12 +72,14 @@ export default function Hero() {
             </p>
 
             {/* Button */}
-            <a
-              href="#"
-              className="inline-block bg-cyan-500 text-white px-6 py-2.5 rounded-md hover:bg-cyan-700 transition duration-300"
-            >
-              View Work →
-            </a>
+            <div className="flex justify-center lg:justify-start">
+      <a
+        href="#"
+        className="inline-block text-sm px-4 py-2 lg:text-base lg:px-6 lg:py-2.5 bg-cyan-500 text-white rounded-md hover:bg-cyan-700 transition duration-300"
+      >
+        View Work →
+      </a>
+    </div>
           </div>
         </div>
       </div>
