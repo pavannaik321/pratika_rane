@@ -27,7 +27,7 @@ function JobCard({
       {/* Responsive flex direction */}
       <div className="flex flex-col lg:flex-row items-start gap-4">
         {/* Rounded image */}
-        <div className="w-16 h-16 rounded-full overflow-hidden flex-shrink-0">
+        <div className="w-10 h-10 rounded-full overflow-hidden flex-shrink-0">
           <Image
             src={logo}
             alt={company}
@@ -39,7 +39,7 @@ function JobCard({
 
         {/* Text content */}
         <div className="text-left">
-          <h4 className="text-[15px] font-bold text-black">{company}</h4>
+          <h4 className="text-[15px]  text-black">{company}</h4>
           <p className="text-sm text-gray-800 font-semibold pt-2 lg:pt-4">{role}</p>
           <ul className="list-disc list-inside text-sm text-black mt-2 space-y-1 px-1">
             <li>{duration}</li>
@@ -111,14 +111,14 @@ export default function Experience() {
     <section id="experience" className="bg-white">
       {/* Header */}
       <div className="bg-cyan-500 py-10 text-center px-4">
-        <h2 className="text-white text-2xl font-semibold">
+        <p className="text-white text-xl font-semibold">
           Pratika Rane{' '}
           <span className="underline underline-offset-4 decoration-white">
             Work Experience
           </span>
-        </h2>
-        <p className="text-white mt-2 text-sm sm:text-base p-2">
-          A dedicated professional with a passion for precision in pharma<br className="hidden sm:block" />
+        </p>
+        <p className="text-white mt-2 text-sm sm:text-base">
+          A dedicated professional with a passion for precision in pharma<br></br>
           compliance.
         </p>
       </div>
