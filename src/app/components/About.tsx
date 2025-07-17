@@ -12,7 +12,7 @@ export default function About() {
           <span className="text-white font-semibold no-underline">Pratika Rane</span>
         </p>
         <p className="text-white mt-2 text-sm sm:text-base">
-          A dedicated professional with a passion for precision in pharma<br/>
+          A dedicated professional with a passion for precision in pharma<br></br>
           compliance.
         </p>
       </div>
