@@ -107,10 +107,10 @@ export default function About() {
               </h3>
               <div className="space-y-4">
                 {[
-                  { lang: "English", level: 90 },
-                  { lang: "English", level: 80 },
-                  { lang: "English", level: 70 },
-                  { lang: "English", level: 60 },
+                  { lang: "Hindi", level: 100 },
+                  { lang: "Marathi", level: 100 },
+                  { lang: "Konkani", level: 100 },
+                  { lang: "English", level: 100 },
                 ].map((item, index) => (
                   <div key={index}>
                     <div className="flex justify-between text-sm text-gray-700 mb-1">
