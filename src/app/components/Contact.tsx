@@ -46,19 +46,22 @@ export default function Contact() {
               <div className="space-y-4 py-10 mt-10">
                 <div className="flex items-center text-sm space-x-3">
                   <FaPhoneAlt />
-                  <span>+102 3456 789</span>
+                  <span>+91 9886260846</span>
                 </div>
                 <div className="flex items-center text-sm space-x-3">
                   <FaEnvelope />
-                  <span>demo@gmail.com</span>
+                  <span>pratikarane1st@gmail.com</span>
                 </div>
-                <div className="flex items-center text-sm space-x-3">
-                  <FaMapMarkerAlt />
-                  <span>
-                    132 Dartmouth Street Boston,
-                    <br />
-                    Massachusetts 02156 United States
-                  </span>
+                <div className="flex items-start text-sm space-x-3">
+                  <div className="pt-1">
+                    <FaMapMarkerAlt />
+                  </div>
+                  <div className="">
+                    <p>201 Mathrusai apartment</p>
+                    <p>Pothinamallaya palem,</p>
+                    <p>Visakhapatnam, Andhra Pradesh</p>
+                    <p>530041.</p>
+                  </div>
                 </div>
               </div>
             </div>
