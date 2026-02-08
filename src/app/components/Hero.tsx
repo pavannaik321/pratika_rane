@@ -62,13 +62,8 @@ export default function Hero() {
 
             {/* Description */}
             <p className="text-[13px] lg:text-[17px] leading-relaxed text-black mb-5">
-              Quality Assurance (QA) is a structured and proactive process aimed
-              at preventing defects while ensuring that all deliverables meet
-              defined standards. It emphasizes early planning and continuous
-              improvement, helping teams to build reliable and high-performing
-              products from the ground up. Instead of waiting for issues to
-              appear, QA promotes building quality at every stage, leading to
-              greater consistency, customer satisfaction, and long-term success.
+            Inspection‑focused Advance Quality Professional with proven experience ensuring 100% readiness, accuracy, and compliance during authority inspections and internal audits. Expert in managing inspection observations, implementing CAPA, performing root cause investigations, and ensuring GxP‑aligned documentation across customer complaint processes.
+            Recognized for strengthening systems to prevent repeat findings, improving complaint investigation standards, and ensuring complete audit‑readiness.
             </p>
 
             {/* Button */}
