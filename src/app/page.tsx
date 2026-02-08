@@ -7,6 +7,7 @@ import Experience from './components/Experience'
 import Education from './components/Education'
 import Contact from './components/Contact'
 import Footer from './components/Footer' // Adjust the path if Header is in a different folder
+import RegulatoryAuditSection from './components/RegularAudit'
 
 export default function page() {
   return (
@@ -16,6 +17,7 @@ export default function page() {
       <About/>
       <Experience/>
       <Education/>
+      <RegulatoryAuditSection/>
       <Contact/>
       <Footer/>
     </div>

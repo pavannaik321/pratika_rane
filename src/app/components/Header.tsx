@@ -18,7 +18,7 @@ export default function Header() {
     return () => window.removeEventListener('resize', handleResize)
   }, [])
 
-  const navItems = ['Home', 'About', 'Experience', 'Education', 'Contact']
+  const navItems = ['Home', 'About', 'Experience', 'Education', 'Audit-Inspection', 'Contact']
 
   return (
     <header className="bg-cyan-500 text-white w-full z-50 relative">

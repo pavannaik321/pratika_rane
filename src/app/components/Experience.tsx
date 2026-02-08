@@ -20,7 +20,7 @@ function JobCard({
   type,
 }: JobCardProps) {
   return (
-    <div className="relative bg-white border border-gray-200 rounded-2xl p-6 shadow-sm overflow-hidden flex flex-col h-full">
+    <div id='Experience' className="relative bg-white border border-gray-200 rounded-2xl p-6 shadow-sm overflow-hidden flex flex-col h-full">
       {/* Right cyan accent */}
       <div className="absolute top-0 right-0 h-full w-[6px] bg-cyan-500 rounded-tr-2xl rounded-br-2xl"></div>
 
